@@ -13,7 +13,7 @@
 		315511212A7E3346000457C2 /* CalculateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315511202A7E3346000457C2 /* CalculateController.swift */; };
 		315511242A7E3346000457C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 315511222A7E3346000457C2 /* Main.storyboard */; };
 		315511292A7E3347000457C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 315511272A7E3347000457C2 /* LaunchScreen.storyboard */; };
-		315511312A7E337A000457C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 315511302A7E337A000457C2 /* Assets.xcassets */; };
+		315854FE2A99F62000889D79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 315854FD2A99F62000889D79 /* Assets.xcassets */; };
 		31DD8C972A80DE0F002FF85F /* CalculatorStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DD8C962A80DE0F002FF85F /* CalculatorStore.swift */; };
 		31DD8C992A80E212002FF85F /* BMI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31DD8C982A80E212002FF85F /* BMI.swift */; };
 /* End PBXBuildFile section */
@@ -27,7 +27,7 @@
 		315511232A7E3346000457C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		315511282A7E3347000457C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3155112A2A7E3347000457C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		315511302A7E337A000457C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../Downloads/BMI-Calculator-iOS13-master/BMI Calculator/Assets.xcassets"; sourceTree = "<group>"; };
+		315854FD2A99F62000889D79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../Downloads/BMI-Calculator-iOS13-master/BMI Calculator/Assets.xcassets"; sourceTree = "<group>"; };
 		31DD8C962A80DE0F002FF85F /* CalculatorStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorStore.swift; sourceTree = "<group>"; };
 		31DD8C982A80E212002FF85F /* BMI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -62,10 +62,10 @@
 		3155111B2A7E3346000457C2 /* bmi calculator */ = {
 			isa = PBXGroup;
 			children = (
+				315854FD2A99F62000889D79 /* Assets.xcassets */,
 				31A90C8C2A7FF5C40005CD10 /* Controller */,
 				31A90C8B2A7FF5BD0005CD10 /* View */,
 				31A90C8A2A7FF5B40005CD10 /* Model */,
-				315511302A7E337A000457C2 /* Assets.xcassets */,
 				3155111C2A7E3346000457C2 /* AppDelegate.swift */,
 				3155111E2A7E3346000457C2 /* SceneDelegate.swift */,
 				315511272A7E3347000457C2 /* LaunchScreen.storyboard */,
@@ -159,7 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				315511292A7E3347000457C2 /* LaunchScreen.storyboard in Resources */,
-				315511312A7E337A000457C2 /* Assets.xcassets in Resources */,
+				315854FE2A99F62000889D79 /* Assets.xcassets in Resources */,
 				315511242A7E3346000457C2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
